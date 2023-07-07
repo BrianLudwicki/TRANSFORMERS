@@ -9,3 +9,8 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import roc_auc_score, f1_score, confusion_matrix
 from sklearn.model_selection import train_test_split
 
+#Basic usage
+classifier = pipeline("sentiment-analysis")
+print(type(classifier))
+
+print(classifier("I don't know what I am doing."))
