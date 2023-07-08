@@ -1,0 +1,9 @@
+#turn on a dataframe from the .csv file
+#view the dataframe
+#filter the dataframe using the "airline sentiment" and "text" columns
+#plot a histogram to see the data (of the sentiment)
+#map the labels to integers (1,0) by creating a dictionary which maps "positive" to 1 and "negative" to "0" and call the map function to add it to df?
+#call the head function again to view the changes
+#check the length of df
+#grab the text column and turn it into a list (make it into a variable "text")
+#run the classifier on the text
